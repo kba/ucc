@@ -1,0 +1,117 @@
+package unicode;
+// Kugel's "Java Code & Tools Library", Copyright (c) 1999-2007, Theossos Comp Group
+
+/**
+ * Unicode General Punctuation block with characters from u2000 to u206F.
+ * @author Kugel, <i>Theossos Comp Group</i>
+ * @version Unicode 4.1.0
+ */
+public interface GeneralPunctuation
+{
+   char EN_QUAD = '\u2000';
+   char EM_QUAD = '\u2001';
+   char EN_SPACE = '\u2002';
+   char EM_SPACE = '\u2003';
+   char THREE_PER_EM_SPACE = '\u2004';
+   char FOUR_PER_EM_SPACE = '\u2005';
+   char SIX_PER_EM_SPACE = '\u2006';
+   char FIGURE_SPACE = '\u2007';
+   char PUNCTUATION_SPACE = '\u2008';
+   char THIN_SPACE = '\u2009';
+   char HAIR_SPACE = '\u200A';
+   char ZERO_WIDTH_SPACE = '\u200B';
+   char ZERO_WIDTH_NON_JOINER = '\u200C';
+   char ZERO_WIDTH_JOINER = '\u200D';
+   char LEFT_TO_RIGHT_MARK = '\u200E';
+   char RIGHT_TO_LEFT_MARK = '\u200F';
+   char HYPHEN = '\u2010';
+   char NON_BREAKING_HYPHEN = '\u2011';
+   char FIGURE_DASH = '\u2012';
+   char EN_DASH = '\u2013';
+   char EM_DASH = '\u2014';
+   char QUOTATION_DASH = '\u2015';
+   char DOUBLE_VERTICAL_BAR = '\u2016';
+   char SPACING_DOUBLE_UNDERSCORE = '\u2017';
+   char SINGLE_TURNED_COMMA_QUOTATION_MARK = '\u2018';
+   char SINGLE_COMMA_QUOTATION_MARK = '\u2019';
+   char LOW_SINGLE_COMMA_QUOTATION_MARK = '\u201A';
+   char SINGLE_REVERSED_COMMA_QUOTATION_MARK = '\u201B';
+   char DOUBLE_TURNED_COMMA_QUOTATION_MARK = '\u201C';
+   char DOUBLE_COMMA_QUOTATION_MARK = '\u201D';
+   char LOW_DOUBLE_COMMA_QUOTATION_MARK = '\u201E';
+   char DOUBLE_REVERSED_COMMA_QUOTATION_MARK = '\u201F';
+   char DAGGER = '\u2020';
+   char DOUBLE_DAGGER = '\u2021';
+   char BULLET = '\u2022';
+   char TRIANGULAR_BULLET = '\u2023';
+   char ONE_DOT_LEADER = '\u2024';
+   char TWO_DOT_LEADER = '\u2025';
+   char HORIZONTAL_ELLIPSIS = '\u2026';
+   char HYPHENATION_POINT = '\u2027';
+   char LINE_SEPARATOR = '\u2028';
+   char PARAGRAPH_SEPARATOR = '\u2029';
+   char LEFT_TO_RIGHT_EMBEDDING = '\u202A';
+   char RIGHT_TO_LEFT_EMBEDDING = '\u202B';
+   char POP_DIRECTIONAL_FORMATTING = '\u202C';
+   char LEFT_TO_RIGHT_OVERRIDE = '\u202D';
+   char RIGHT_TO_LEFT_OVERRIDE = '\u202E';
+   char NARROW_NO_BREAK_SPACE = '\u202F';
+   char PER_MILLE_SIGN = '\u2030';
+   char PER_TEN_THOUSAND_SIGN = '\u2031';
+   char PRIME = '\u2032';
+   char DOUBLE_PRIME = '\u2033';
+   char TRIPLE_PRIME = '\u2034';
+   char REVERSED_PRIME = '\u2035';
+   char REVERSED_DOUBLE_PRIME = '\u2036';
+   char REVERSED_TRIPLE_PRIME = '\u2037';
+   char CARET = '\u2038';
+   char LEFT_POINTING_SINGLE_GUILLEMET = '\u2039';
+   char RIGHT_POINTING_SINGLE_GUILLEMET = '\u203A';
+   char REFERENCE_MARK = '\u203B';
+   char DOUBLE_EXCLAMATION_MARK = '\u203C';
+   char INTERROBANG = '\u203D';
+   char SPACING_OVERSCORE = '\u203E';
+   char UNDERTIE = '\u203F';
+   char CHARACTER_TIE = '\u2040';
+   char CARET_INSERTION_POINT = '\u2041';
+   char ASTERISM = '\u2042';
+   char HYPHEN_BULLET = '\u2043';
+   char FRACTION_SLASH = '\u2044';
+   char LEFT_SQUARE_BRACKET_WITH_QUILL = '\u2045';
+   char RIGHT_SQUARE_BRACKET_WITH_QUILL = '\u2046';
+   char DOUBLE_QUESTION_MARK = '\u2047';
+   char QUESTION_EXCLAMATION_MARK = '\u2048';
+   char EXCLAMATION_QUESTION_MARK = '\u2049';
+   char TIRONIAN_SIGN_ET = '\u204A';
+   char REVERSED_PILCROW_SIGN = '\u204B';
+   char BLACK_LEFTWARDS_BULLET = '\u204C';
+   char BLACK_RIGHTWARDS_BULLET = '\u204D';
+   char LOW_ASTERISK = '\u204E';
+   char REVERSED_SEMICOLON = '\u204F';
+   char CLOSE_UP = '\u2050';
+   char TWO_ASTERISKS_ALIGNED_VERTICALLY = '\u2051';
+   char COMMERCIAL_MINUS_SIGN = '\u2052';
+   char SWUNG_DASH = '\u2053';
+   char INVERTED_UNDERTIE = '\u2054';
+   char FLOWER_PUNCTUATION_MARK = '\u2055';
+   char THREE_DOT_PUNCTUATION = '\u2056';
+   char QUADRUPLE_PRIME = '\u2057';
+   char FOUR_DOT_PUNCTUATION = '\u2058';
+   char FIVE_DOT_PUNCTUATION = '\u2059';
+   char TWO_DOT_PUNCTUATION = '\u205A';
+   char FOUR_DOT_MARK = '\u205B';
+   char DOTTED_CROSS = '\u205C';
+   char TRICOLON = '\u205D';
+   char VERTICAL_FOUR_DOTS = '\u205E';
+   char MEDIUM_MATHEMATICAL_SPACE = '\u205F';
+   char WORD_JOINER = '\u2060';
+   char FUNCTION_APPLICATION = '\u2061';
+   char INVISIBLE_TIMES = '\u2062';
+   char INVISIBLE_SEPARATOR = '\u2063';
+   char INHIBIT_SYMMETRIC_SWAPPING = '\u206A';
+   char ACTIVATE_SYMMETRIC_SWAPPING = '\u206B';
+   char INHIBIT_ARABIC_FORM_SHAPING = '\u206C';
+   char ACTIVATE_ARABIC_FORM_SHAPING = '\u206D';
+   char NATIONAL_DIGIT_SHAPES = '\u206E';
+   char NOMINAL_DIGIT_SHAPES = '\u206F';
+}

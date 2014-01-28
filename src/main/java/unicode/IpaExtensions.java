@@ -1,0 +1,108 @@
+package unicode;
+// Kugel's "Java Code & Tools Library", Copyright (c) 1999-2007, Theossos Comp Group
+
+/**
+ * Unicode IPA Extensions block with characters from u0250 to u02AF.
+ * @author Kugel, <i>Theossos Comp Group</i>
+ * @version Unicode 4.1.0
+ */
+public interface IpaExtensions
+{
+   // constant field names modified with "^LATIN " pattern 
+   char SMALL_LETTER_TURNED_A = '\u0250';
+   char SMALL_LETTER_SCRIPT_A = '\u0251';
+   char SMALL_LETTER_TURNED_SCRIPT_A = '\u0252';
+   char SMALL_LETTER_B_HOOK = '\u0253';
+   char SMALL_LETTER_OPEN_O = '\u0254';
+   char SMALL_LETTER_C_CURL = '\u0255';
+   char SMALL_LETTER_D_RETROFLEX_HOOK = '\u0256';
+   char SMALL_LETTER_D_HOOK = '\u0257';
+   char SMALL_LETTER_REVERSED_E = '\u0258';
+   char SMALL_LETTER_SCHWA = '\u0259';
+   char SMALL_LETTER_SCHWA_HOOK = '\u025A';
+   char SMALL_LETTER_EPSILON = '\u025B';
+   char SMALL_LETTER_REVERSED_EPSILON = '\u025C';
+   char SMALL_LETTER_REVERSED_EPSILON_HOOK = '\u025D';
+   char SMALL_LETTER_CLOSED_REVERSED_EPSILON = '\u025E';
+   char SMALL_LETTER_DOTLESS_J_BAR = '\u025F';
+   char SMALL_LETTER_G_HOOK = '\u0260';
+   char SMALL_LETTER_SCRIPT_G = '\u0261';
+   char LETTER_SMALL_CAPITAL_G = '\u0262';
+   char SMALL_LETTER_GAMMA = '\u0263';
+   char SMALL_LETTER_BABY_GAMMA = '\u0264';
+   char SMALL_LETTER_TURNED_H = '\u0265';
+   char SMALL_LETTER_H_HOOK = '\u0266';
+   char SMALL_LETTER_HENG_HOOK = '\u0267';
+   char SMALL_LETTER_BARRED_I = '\u0268';
+   char SMALL_LETTER_IOTA = '\u0269';
+   char LETTER_SMALL_CAPITAL_I = '\u026A';
+   char SMALL_LETTER_L_WITH_MIDDLE_TILDE = '\u026B';
+   char SMALL_LETTER_L_BELT = '\u026C';
+   char SMALL_LETTER_L_RETROFLEX_HOOK = '\u026D';
+   char SMALL_LETTER_L_YOGH = '\u026E';
+   char SMALL_LETTER_TURNED_M = '\u026F';
+   char SMALL_LETTER_TURNED_M_WITH_LONG_LEG = '\u0270';
+   char SMALL_LETTER_M_HOOK = '\u0271';
+   char SMALL_LETTER_N_HOOK = '\u0272';
+   char SMALL_LETTER_N_RETROFLEX_HOOK = '\u0273';
+   char LETTER_SMALL_CAPITAL_N = '\u0274';
+   char SMALL_LETTER_BARRED_O = '\u0275';
+   char LETTER_SMALL_CAPITAL_O_E = '\u0276';
+   char SMALL_LETTER_CLOSED_OMEGA = '\u0277';
+   char SMALL_LETTER_PHI = '\u0278';
+   char SMALL_LETTER_TURNED_R = '\u0279';
+   char SMALL_LETTER_TURNED_R_WITH_LONG_LEG = '\u027A';
+   char SMALL_LETTER_TURNED_R_HOOK = '\u027B';
+   char SMALL_LETTER_R_WITH_LONG_LEG = '\u027C';
+   char SMALL_LETTER_R_HOOK = '\u027D';
+   char SMALL_LETTER_FISHHOOK_R = '\u027E';
+   char SMALL_LETTER_REVERSED_FISHHOOK_R = '\u027F';
+   char LETTER_SMALL_CAPITAL_R = '\u0280';
+   char LETTER_SMALL_CAPITAL_INVERTED_R = '\u0281';
+   char SMALL_LETTER_S_HOOK = '\u0282';
+   char SMALL_LETTER_ESH = '\u0283';
+   char SMALL_LETTER_DOTLESS_J_BAR_HOOK = '\u0284';
+   char SMALL_LETTER_SQUAT_REVERSED_ESH = '\u0285';
+   char SMALL_LETTER_ESH_CURL = '\u0286';
+   char SMALL_LETTER_TURNED_T = '\u0287';
+   char SMALL_LETTER_T_RETROFLEX_HOOK = '\u0288';
+   char SMALL_LETTER_U_BAR = '\u0289';
+   char SMALL_LETTER_UPSILON = '\u028A';
+   char SMALL_LETTER_SCRIPT_V = '\u028B';
+   char SMALL_LETTER_TURNED_V = '\u028C';
+   char SMALL_LETTER_TURNED_W = '\u028D';
+   char SMALL_LETTER_TURNED_Y = '\u028E';
+   char LETTER_SMALL_CAPITAL_Y = '\u028F';
+   char SMALL_LETTER_Z_RETROFLEX_HOOK = '\u0290';
+   char SMALL_LETTER_Z_CURL = '\u0291';
+   char SMALL_LETTER_YOGH_2 = '\u0292';
+   char SMALL_LETTER_YOGH_CURL = '\u0293';
+   char LETTER_GLOTTAL_STOP = '\u0294';
+   char LETTER_REVERSED_GLOTTAL_STOP = '\u0295';
+   char LETTER_INVERTED_GLOTTAL_STOP = '\u0296';
+   char LETTER_STRETCHED_C = '\u0297';
+   char LETTER_BULLSEYE = '\u0298';
+   char LETTER_SMALL_CAPITAL_B = '\u0299';
+   char SMALL_LETTER_CLOSED_EPSILON = '\u029A';
+   char LETTER_SMALL_CAPITAL_G_HOOK = '\u029B';
+   char LETTER_SMALL_CAPITAL_H = '\u029C';
+   char SMALL_LETTER_CROSSED_TAIL_J = '\u029D';
+   char SMALL_LETTER_TURNED_K = '\u029E';
+   char LETTER_SMALL_CAPITAL_L = '\u029F';
+   char SMALL_LETTER_Q_HOOK = '\u02A0';
+   char LETTER_GLOTTAL_STOP_BAR = '\u02A1';
+   char LETTER_REVERSED_GLOTTAL_STOP_BAR = '\u02A2';
+   char SMALL_LETTER_D_Z = '\u02A3';
+   char SMALL_LETTER_D_YOGH = '\u02A4';
+   char SMALL_LETTER_D_Z_CURL = '\u02A5';
+   char SMALL_LETTER_T_S = '\u02A6';
+   char SMALL_LETTER_T_ESH = '\u02A7';
+   char SMALL_LETTER_T_C_CURL = '\u02A8';
+   char SMALL_LETTER_FENG_DIGRAPH = '\u02A9';
+   char SMALL_LETTER_LS_DIGRAPH = '\u02AA';
+   char SMALL_LETTER_LZ_DIGRAPH = '\u02AB';
+   char LETTER_BILABIAL_PERCUSSIVE = '\u02AC';
+   char LETTER_BIDENTAL_PERCUSSIVE = '\u02AD';
+   char SMALL_LETTER_TURNED_H_WITH_FISHHOOK = '\u02AE';
+   char SMALL_LETTER_TURNED_H_WITH_FISHHOOK_AND_TAIL = '\u02AF';
+}
